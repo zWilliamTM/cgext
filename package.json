@@ -1,0 +1,20 @@
+{
+  "name": "change-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli"],
+  "bin": {
+    "cgext": "./bin/index.js"
+  },
+  "author": "William Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/tap": "^15.0.10",
+    "rimraf": "^5.0.5",
+    "tap": "^18.5.3"
+  }
+}
